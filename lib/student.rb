@@ -26,6 +26,7 @@ end
       DELETE students
       SQL
     DB[:conn].execute(sql)
+  end
 
 
 
