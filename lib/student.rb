@@ -21,6 +21,15 @@ end
     DB[:conn].execute(sql)
   end
 
+  def self.drop_table
+    sql = <<-SQL
+      DELETE students
+      SQL
+    DB[:conn].execute(sql)
+
+
+
+
 
 
 end
