@@ -34,6 +34,9 @@ end
       VALUES (?, ?)
     SQL
 
+    DB[:conn].execute(sql, self.name, self.album)
+  end
+
 
 
 
